@@ -1,0 +1,31 @@
+{
+  "_read_me": "Settings for one build. Keys starting with _ are notes and are ignored.",
+
+  "brickognize": {
+    "_note": "OFF by default. Brickognize (brickognize.com) is an outside service, not part of this kit. Its terms let it keep the pictures you send, including to train its models. When on, only tight crops of single pieces are sent, never a whole photo, each one once (cached by MD5), with one line per send in brickognize/sent.log. If it is off, fails, or starts charging, Claude looks at the crops instead.",
+    "enabled": false,
+    "max_side_px": 600,
+    "timeout_s": 45,
+    "pause_s": 0.6,
+    "send_parts_list_drawings": true
+  },
+
+  "review": {
+    "_note": "Which results Claude checks by eye. A piece goes to the check when its score is below min_score, when the top two answers are within tie_margin, or when Brickognize names a part that is not in your parts list. Blurry photos, glare, a busy background or unusual pieces call for a higher min_score; sharp photos on a plain light background can take a lower one.",
+    "min_score": 0.60,
+    "tie_margin": 0.05,
+    "drawing_gap": 0.30
+  },
+
+  "table": {
+    "_note": "flat_long_side_px: size of the flattened table picture. min_piece_px: smallest blob counted as a piece, in pixels of the original photo.",
+    "flat_long_side_px": 3400,
+    "min_piece_px": 250
+  },
+
+  "site": {
+    "_note": "title: shown at the top of the guide (default: from the PDF file name). storage_prefix: ticks are saved in the browser under this prefix; change it to keep two guides apart.",
+    "title": "",
+    "storage_prefix": "bbg:"
+  }
+}

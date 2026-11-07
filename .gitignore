@@ -1,0 +1,9 @@
+# build output and work folders (they hold your instruction pages and photos: never commit)
+_site/
+_demo-work/
+brick-guide-work/
+*.pdf
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/

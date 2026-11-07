@@ -1,0 +1,51 @@
+{
+ "_about": "The Claude check for the demo: answers written by looking at the review sheets (review/table-*.jpg, book-pages, book-parts, drawings). Pieces are keyed by their position on table/grid.jpg.",
+ "bags": {
+  "3": 1,
+  "5": 2
+ },
+ "names": {
+  "D1001": "Dark grey plate 4 x 6",
+  "D1002": "Yellow brick 1 x 2",
+  "D1003": "Black wheel, small",
+  "D1004": "Blue brick 2 x 4",
+  "D1005": "Blue plate 2 x 4",
+  "D1006": "Red slope 2 x 2",
+  "D1007": "White plate 1 x 4",
+  "D1008": "Red brick 1 x 1",
+  "D1009": "Light grey tile 1 x 2",
+  "D1010": "Green plate 2 x 2",
+  "D1011": "White round brick 1 x 1",
+  "D1012": "Orange round plate 1 x 1"
+ },
+ "drawings": {
+  "d2": "D1002",
+  "d3": "D1003"
+ },
+ "pieces": {
+  "@1832,351": "D1010",
+  "@2243,310": "D1008",
+  "@565,506": "D1005",
+  "@1279,672": "D1001",
+  "@2582,554": "D1005",
+  "@3091,516": "D1002",
+  "@270,816": "D1011",
+  "@2097,889": "not-in-set",
+  "@571,1138": "D1004",
+  "@2541,1033": "D1009",
+  "@3092,1033": "D1006",
+  "@1022,1200": "D1002",
+  "@1279,1411": "not-in-set",
+  "@1638,1348": "D1003",
+  "@2272,1321": "D1003",
+  "@2756,1449": "D1003",
+  "@936,1589": "not-in-set",
+  "@382,1678": "D1006",
+  "@1433,1799": "D1007",
+  "@3163,1623": "D1008",
+  "@2054,1758": "D1007",
+  "@2568,1854": "D1002",
+  "@2956,1881": "D1002",
+  "@694,1909": "D1009"
+ }
+}
